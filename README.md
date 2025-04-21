@@ -87,12 +87,6 @@ npm install
 npm run dev
 ```
 
-📄 `frontend/.env` example:
-
-```
-VITE_API_BASE=http://localhost:5000/api
-```
-
 ---
 
 ## 🌐 Auth Flow
