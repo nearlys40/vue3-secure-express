@@ -119,15 +119,7 @@ dist/
 
 ---
 
-## 📸 UI Screens
+## 📬 Need `.env` files?
 
-- ✅ Login + Register
-- ✅ Dashboard (User info + role)
-- ✅ Responsive design (mobile/desktop)
-
----
-
-## ✨ Credit
-
-Built with ❤️ by Oat + ChatGPT  
-Feel free to fork, extend, and use for any secure full-stack application.
+For security reasons, `.env` files are excluded from this repo.  
+If you need sample or production-ready `.env` configuration, please email: **visut.savangsuk@gmail.com**
