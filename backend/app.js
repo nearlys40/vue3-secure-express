@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // CORS
-const whitelist = ['http://localhost:5173'];
+const whitelist = [process.env.CORS_ORIGIN];
 app.use(cors({
     origin: (origin, callback) => {
         if (!origin || whitelist.includes(origin)) {
