@@ -8,12 +8,12 @@ Backend ด้วย Express.js + Prisma + MongoDB + JWT
 
 ## 📦 Tech Stack
 
-| Layer     | Stack                              |
-|-----------|-------------------------------------|
-| Frontend  | Vue 3, Vite, Pinia, TypeScript, TailwindCSS |
-| Backend   | Node.js, Express.js, Prisma ORM, MongoDB |
-| Auth      | JWT (access & refresh token), httpOnly cookies |
-| Security  | Helmet, CORS whitelist, Joi validation, Rate Limit |
+| Layer    | Stack                                              |
+| -------- | -------------------------------------------------- |
+| Frontend | Vue 3, Vite, Pinia, TypeScript, TailwindCSS        |
+| Backend  | Node.js, Express.js, Prisma ORM, MongoDB           |
+| Auth     | JWT (access & refresh token), httpOnly cookies     |
+| Security | Helmet, CORS whitelist, Joi validation, Rate Limit |
 
 ---
 
@@ -75,16 +75,6 @@ npm install
 npx prisma generate
 npx prisma db push
 npm run dev
-```
-
-📄 `backend/.env` example:
-
-```
-PORT=5000
-DATABASE_URL="mongodb+srv://username:password@cluster.mongodb.net/dbname"
-JWT_SECRET="your_jwt_secret"
-REFRESH_SECRET="your_refresh_secret"
-CORS_ORIGIN=http://localhost:5173
 ```
 
 ---
